@@ -1,1 +1,13 @@
-# apks-lab1-build-engineer
+# apks-lab1-build-engineer# AI-агент `build-engineer` для автоматизації розробки та CI/CD
+
+- **Виконав:** Чучвара М.М., група КІ-402[cite: 1]
+- **Дисципліна:** Автоматизоване проєктування комп’ютерних систем (ЛР №1)[cite: 1]
+- **Мова та стек:** Rust, Cargo, `cargo test`, GitHub Actions[cite: 1]
+
+## Опис проєкту
+Спеціалізований AI-агент `build-engineer` для GitHub Copilot у VS Code, який автоматизує створення кросплатформного застосунку Hello World мовою Rust, налаштування складання через Cargo, юніт-тестування та генерацію CI-пайплайну в GitHub Actions для Windows, Linux і macOS[cite: 1].
+
+## Запуск агента
+У VS Code Copilot Chat оберіть агента `@build-engineer` та запустіть:
+- `/init` — повний цикл ініціалізації, створення проєкту, збірки, CI та перевірки[cite: 1, 9].
+- `/check` — перевірка структури, збірки, тестів, YAML та стану Git без зміни файлів[cite: 1, 9].
