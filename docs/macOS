@@ -1,0 +1,3 @@
+./ci.sh
+./dist/hello
+cargo test --release
